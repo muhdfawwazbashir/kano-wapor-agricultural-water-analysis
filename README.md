@@ -1,107 +1,152 @@
 # Kano WaPOR Agricultural Water Analysis
 
-## Overview
+**Author:** Muhammad Fawwaz Bashir  
+**Study Area:** Kano State, Nigeria  
+**Year:** 2024  
+**Tools:** Python, GeoPandas, Rasterio, Pandas, Matplotlib, FAO WaPOR 3
 
-This project demonstrates the use of Python to analyze agricultural water-use indicators from the FAO WaPOR 3 dataset for Kano State, Nigeria.
+---
 
-The analysis focuses on 44 Local Government Areas (LGAs) in Kano State and examines:
+## Project Overview
+
+This project demonstrates a Python-based geospatial analysis of agricultural water-use indicators from the FAO WaPOR 3 dataset for Kano State, Nigeria.
+
+The analysis was conducted at the Local Government Area (LGA) level and covers all 44 LGAs of Kano State.
+
+Two WaPOR indicators were analyzed:
 
 - Actual Evapotranspiration and Interception (AETI)
 - Relative Soil Moisture (RSM)
 
-The objective is to demonstrate a reproducible geospatial workflow for downloading, processing, analyzing, and visualizing WaPOR data using Python.
+The objective was to develop a reproducible workflow for downloading, processing, extracting, analyzing, and visualizing satellite-derived agricultural water indicators using Python.
 
 ## Study Area
 
-The study area is Kano State, Nigeria, located in northern Nigeria.
+Kano State is located in northern Nigeria and is an important agricultural region.
 
-The analysis was conducted at the Local Government Area (LGA) level using 44 LGAs covering Kano State.
+The analysis uses the administrative boundaries of the 44 LGAs within Kano State and summarizes WaPOR raster data spatially for each LGA.
 
-## Data
+## Data Sources
 
-The project uses WaPOR 3 data accessed using the `wapordl` Python package.
+The project uses FAO WaPOR 3 data accessed programmatically using the `wapordl` Python package.
 
 ### AETI
 
-- WaPOR variable: `L2-AETI-D`
-- Description: Actual Evapotranspiration and Interception
-- Unit: mm/day
+**Variable:** `L2-AETI-D`
 
-### RSM
+Actual Evapotranspiration and Interception measures the amount of water transferred from the land surface to the atmosphere through evapotranspiration and interception.
 
-- WaPOR variable: `L2-RSM-D`
-- Description: Relative Soil Moisture
-- Unit: %
+- Temporal coverage: 2024
+- Spatial analysis: LGA-level zonal statistics
+- Output: annual AETI in mm/year
+
+### Relative Soil Moisture
+
+**Variable:** `L2-RSM-D`
+
+Relative Soil Moisture provides an indicator of soil moisture conditions.
+
+- Temporal coverage: 2024
+- Spatial analysis: LGA-level zonal statistics
+- Output: annual mean relative soil moisture (%)
 
 ## Methodology
 
-1. Define the Kano State study area.
-2. Obtain the Kano LGA boundaries.
-3. Download WaPOR 3 raster data using Python.
-4. Extract zonal statistics for each LGA.
-5. Calculate temporal averages.
-6. Calculate annual AETI and RSM indicators.
-7. Join the results to the LGA boundaries.
-8. Create maps and graphs using Python.
-9. Export the processed results as CSV and GeoPackage files.
+1. Define Kano State as the study area.
+2. Load the Kano State and LGA boundary datasets.
+3. Download WaPOR 3 raster datasets using Python.
+4. Check raster metadata, CRS, dimensions, nodata values, and temporal bands.
+5. Extract zonal statistics for each LGA.
+6. Organize observations into Pandas DataFrames.
+7. Calculate annual LGA-level averages.
+8. Join the results with the LGA geometries.
+9. Create thematic maps and graphs using Python.
+10. Export results as CSV and GeoPackage files.
 
 ## Results
 
 ### AETI
 
-The 2024 AETI analysis produced observations for all 44 LGAs.
+The 2024 AETI analysis produced annual results for all 44 LGAs.
 
-Annual mean AETI values ranged from approximately 289 to 858 mm/year across the LGAs.
+- Minimum: 289.1 mm/year
+- Maximum: 858.3 mm/year
+- Mean: 486.2 mm/year
+
+### AETI Map
+
+![Annual AETI map](outputs/figures/kano_annual_aeti_2024.png)
 
 ### Relative Soil Moisture
 
-The 2024 RSM analysis produced 36 observations for each of the 44 LGAs.
+The RSM analysis produced 36 observations for each of the 44 LGAs during 2024.
 
-The annual mean RSM across the study area was approximately 39.6%.
+The annual mean RSM across the study area was approximately **39.6%**.
 
-The LGA-level annual mean RSM values ranged from approximately 26.3% to 53.0%.
+LGA-level annual mean RSM values ranged approximately from **26.3% to 53.0%**.
 
-## Outputs
+### RSM Map
 
-The project produces:
+![Annual RSM map](outputs/figures/kano_annual_rsm_2024.png)
 
-- LGA-level AETI CSV data
-- LGA-level RSM CSV data
-- GeoPackage spatial data
-- AETI maps
-- RSM maps
-- Exploratory graphs
+## Example Results
 
-Example output files:
+| LGA | Annual Mean RSM (%) |
+|---|---:|
+| Ajingi | 36.76 |
+| Albasu | 36.76 |
+| Bagwai | 40.38 |
+| Bebeji | 41.25 |
+| Bichi | 36.27 |
 
-- `kano_lga_aeti_2024.csv`
-- `kano_lga_rsm_2024.csv`
-- `kano_lga_aeti_stress_2024.gpkg`
+## Project Structure
 
-## Technologies
+```text
+data/
+├── raw/
+└── processed/
+
+outputs/
+└── figures/
+
+src/
+└── kano_wapor_analysis.py
+
+README.md
+.gitignore
+```
+
+## Technologies and Skills
 
 - Python
+- Pandas
+- NumPy
 - GeoPandas
 - Rasterio
-- NumPy
-- Pandas
 - Matplotlib
-- Rasterstats
-- WaPOR 3
-- wapordl
+- Raster data processing
+- Vector data processing
+- Zonal statistics
+- Geospatial analysis
+- Coordinate reference systems
+- Agricultural water analysis
+- Thematic mapping
+- Git and GitHub
+
+## Reproducibility
+
+The main analysis workflow is available in:
+
+`src/kano_wapor_analysis.py`
+
+Processed datasets are available in `data/processed/` and maps are available in `outputs/figures/`.
+
+## Limitations
+
+This analysis summarizes raster information at the LGA level. LGA-level averages can hide substantial variation within individual LGAs. The results should therefore be interpreted as spatial summaries rather than field-level measurements.
 
 ## Author
 
 **Muhammad Fawwaz Bashir**
 
-Geospatial / Remote Sensing / Agricultural Water Analysis
-
-## Data Source
-
-FAO WaPOR 3
-
-https://www.fao.org/in-action/remote-sensing-for-water-productivity/en/
-
-## License
-
-This repository contains analysis code and derived results. The underlying WaPOR data remain subject to their original terms and attribution requirements.
+Geospatial Data Analysis | Python | Remote Sensing | Agricultural Water Analysis
