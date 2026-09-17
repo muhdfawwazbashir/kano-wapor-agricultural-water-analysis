@@ -1,0 +1,45 @@
+fid,GID_2,GID_0,COUNTRY,GID_1,NAME_1,NL_NAME_1,NAME_2,VARNAME_2,NL_NAME_2,TYPE_2,ENGTYPE_2,CC_2,HASC_2,LGA,Annual_AETI_mm
+1,NGA.20.1_1,NGA,Nigeria,NGA.20_1,Kano,NA,Ajingi,NA,NA,Local Authority,Local Authority,NA,NA,Ajingi,443.4838577768913
+2,NGA.20.2_1,NGA,Nigeria,NGA.20_1,Kano,NA,Albasu,NA,NA,Local Authority,Local Authority,NA,NA,Albasu,464.77250420252403
+3,NGA.20.3_1,NGA,Nigeria,NGA.20_1,Kano,NA,Bagwai,NA,NA,Local Authority,Local Authority,NA,NA,Bagwai,510.85275091597094
+4,NGA.20.4_1,NGA,Nigeria,NGA.20_1,Kano,NA,Bebeji,NA,NA,Local Authority,Local Authority,NA,NA,Bebeji,546.8975731924547
+5,NGA.20.5_1,NGA,Nigeria,NGA.20_1,Kano,NA,Bichi,NA,NA,Local Authority,Local Authority,NA,NA,Bichi,438.3785553729624
+6,NGA.20.6_1,NGA,Nigeria,NGA.20_1,Kano,NA,Bunkure,NA,NA,Local Authority,Local Authority,NA,NA,Bunkure,636.6779889036186
+7,NGA.20.7_1,NGA,Nigeria,NGA.20_1,Kano,NA,Dala,NA,NA,Local Authority,Local Authority,NA,NA,Dala,295.6522401847575
+8,NGA.20.8_1,NGA,Nigeria,NGA.20_1,Kano,NA,Dambatta,NA,NA,Local Authority,Local Authority,NA,NA,Dambatta,306.91842381836767
+9,NGA.20.9_1,NGA,Nigeria,NGA.20_1,Kano,NA,Dawakin Kudu,NA,NA,Local Authority,Local Authority,NA,NA,Dawakin Kudu,631.0044114270721
+10,NGA.20.10_1,NGA,Nigeria,NGA.20_1,Kano,NA,Dawakin Tofa,NA,NA,Local Authority,Local Authority,NA,NA,Dawakin Tofa,460.80492670278045
+11,NGA.20.11_1,NGA,Nigeria,NGA.20_1,Kano,NA,Doguwa,NA,NA,Local Authority,Local Authority,NA,NA,Doguwa,670.1264370209597
+12,NGA.20.12_1,NGA,Nigeria,NGA.20_1,Kano,NA,Fagge,NA,NA,Local Authority,Local Authority,NA,NA,Fagge,289.07610141313387
+13,NGA.20.13_1,NGA,Nigeria,NGA.20_1,Kano,NA,Gabasawa,NA,NA,Local Authority,Local Authority,NA,NA,Gabasawa,399.7607074235808
+14,NGA.20.14_1,NGA,Nigeria,NGA.20_1,Kano,NA,Garko,NA,NA,Local Authority,Local Authority,NA,NA,Garko,491.960328496574
+15,NGA.20.15_1,NGA,Nigeria,NGA.20_1,Kano,NA,Garum Mallam,NA,NA,Local Authority,Local Authority,NA,NA,Garum Mallam,579.9552951347198
+16,NGA.20.16_1,NGA,Nigeria,NGA.20_1,Kano,NA,Gaya,NA,NA,Local Authority,Local Authority,NA,NA,Gaya,483.1571814556703
+17,NGA.20.17_1,NGA,Nigeria,NGA.20_1,Kano,NA,Gezawa,NA,NA,Local Authority,Local Authority,NA,NA,Gezawa,468.2389728192162
+18,NGA.20.18_1,NGA,Nigeria,NGA.20_1,Kano,NA,Gwale,NA,NA,Local Authority,Local Authority,NA,NA,Gwale,292.9763221737021
+19,NGA.20.19_1,NGA,Nigeria,NGA.20_1,Kano,NA,Gwarzo,NA,NA,Local Authority,Local Authority,NA,NA,Gwarzo,482.6825196150059
+20,NGA.20.20_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kabo,NA,NA,Local Authority,Local Authority,NA,NA,Kabo,456.9731945515292
+21,NGA.20.21_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kano,NA,NA,Local Authority,Local Authority,NA,NA,Kano,320.8426770969144
+22,NGA.20.22_1,NGA,Nigeria,NGA.20_1,Kano,NA,Karaye,NA,NA,Local Authority,Local Authority,NA,NA,Karaye,765.3167038661844
+23,NGA.20.23_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kibiya,NA,NA,Local Authority,Local Authority,NA,NA,Kibiya,498.9346695926315
+24,NGA.20.24_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kiru,NA,NA,Local Authority,Local Authority,NA,NA,Kiru,482.32829588249194
+25,NGA.20.25_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kumbotso,NA,NA,Local Authority,Local Authority,NA,NA,Kumbotso,440.08786762100493
+26,NGA.20.26_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kunchi,NA,NA,Local Authority,Local Authority,NA,NA,Kunchi,432.59920482320354
+27,NGA.20.27_1,NGA,Nigeria,NGA.20_1,Kano,NA,Kura,NA,NA,Local Authority,Local Authority,NA,NA,Kura,852.7239425149701
+28,NGA.20.28_1,NGA,Nigeria,NGA.20_1,Kano,NA,Madobi,NA,NA,Local Authority,Local Authority,NA,NA,Madobi,510.9716089823715
+29,NGA.20.29_1,NGA,Nigeria,NGA.20_1,Kano,NA,Makoda,NA,NA,Local Authority,Local Authority,NA,NA,Makoda,391.1900964116607
+30,NGA.20.30_1,NGA,Nigeria,NGA.20_1,Kano,NA,Minjibir,NA,NA,Local Authority,Local Authority,NA,NA,Minjibir,518.0493868605039
+31,NGA.20.31_1,NGA,Nigeria,NGA.20_1,Kano,NA,Nasarawa,Nassarawa,NA,Local Authority,Local Authority,NA,NA,Nasarawa,289.5287446937538
+32,NGA.20.32_1,NGA,Nigeria,NGA.20_1,Kano,NA,Rano,NA,NA,Local Authority,Local Authority,NA,NA,Rano,858.3161990419396
+33,NGA.20.33_1,NGA,Nigeria,NGA.20_1,Kano,NA,Rimin Gado,NA,NA,Local Authority,Local Authority,NA,NA,Rimin Gado,455.64540469401186
+34,NGA.20.34_1,NGA,Nigeria,NGA.20_1,Kano,NA,Rogo,NA,NA,Local Authority,Local Authority,NA,NA,Rogo,435.90295306582703
+35,NGA.20.35_1,NGA,Nigeria,NGA.20_1,Kano,NA,Shanono,NA,NA,Local Authority,Local Authority,NA,NA,Shanono,480.5258235488977
+36,NGA.20.36_1,NGA,Nigeria,NGA.20_1,Kano,NA,Sumaila,NA,NA,Local Authority,Local Authority,NA,NA,Sumaila,517.2997077584785
+37,NGA.20.37_1,NGA,Nigeria,NGA.20_1,Kano,NA,Takai,NA,NA,Local Authority,Local Authority,NA,NA,Takai,515.0920860771402
+38,NGA.20.38_1,NGA,Nigeria,NGA.20_1,Kano,NA,Tarauni,NA,NA,Local Authority,Local Authority,NA,NA,Tarauni,297.3412659470069
+39,NGA.20.39_1,NGA,Nigeria,NGA.20_1,Kano,NA,Tofa,NA,NA,Local Authority,Local Authority,NA,NA,Tofa,458.2732301762739
+40,NGA.20.40_1,NGA,Nigeria,NGA.20_1,Kano,NA,Tsanyawa,NA,NA,Local Authority,Local Authority,NA,NA,Tsanyawa,433.3959399084106
+41,NGA.20.41_1,NGA,Nigeria,NGA.20_1,Kano,NA,Tudun Wada,NA,NA,Local Authority,Local Authority,NA,NA,Tudun Wada,679.0950199630353
+42,NGA.20.42_1,NGA,Nigeria,NGA.20_1,Kano,NA,Ungogo,NA,NA,Local Authority,Local Authority,NA,NA,Ungogo,379.82052923076924
+43,NGA.20.43_1,NGA,Nigeria,NGA.20_1,Kano,NA,Warawa,NA,NA,Local Authority,Local Authority,NA,NA,Warawa,500.23114556877425
+44,NGA.20.44_1,NGA,Nigeria,NGA.20_1,Kano,NA,Wudil,NA,NA,Local Authority,Local Authority,NA,NA,Wudil,529.0883008356546

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large raster/data files
+*.tif
+*.tiff
+*.nc
+*.hdf
+*.h5
+
+# Temporary files
+*.tmp
+*.log
+
+# Google Colab
+.config/
+
+# OS files
+.DS_Store
+Thumbs.db
