@@ -81,7 +81,7 @@ The 2024 AETI analysis produced annual results for all 44 LGAs.
 
 ### AETI Map
 
-![Annual AETI map](outputs/figures/kano_annual_aeti_2024.png)
+![Annual AETI map](outputs/figures/kano_annual_aeti.png)
 
 ### Relative Soil Moisture
 
@@ -93,7 +93,7 @@ LGA-level annual mean RSM values ranged approximately from **26.3% to 53.0%**.
 
 ### RSM Map
 
-![Annual RSM map](outputs/figures/kano_annual_rsm_2024.png)
+![Annual RSM map](outputs/figures/kano_annual_rsm.png)
 
 ## Example Results
 
