@@ -65,6 +65,12 @@ Relative Soil Moisture provides an indicator of soil moisture conditions.
 
 ## Results
 
+### Seasonal Trends (Dekadal Analysis)
+
+The project tracks agricultural water changes throughout the year using 10-day (dekadal) averages. The analysis highlights distinct seasonal patterns, showing that both water usage (AETI) and soil moisture rise sharply during the rainy season between July and October, peaking in August and September.
+
+![WaPOR Water-Related Indicators Dekadal Analysis](outputs/figures/kano_dekadal_indicators_2024.png)
+
 ### AETI
 
 The 2024 AETI analysis produced annual results for all 44 LGAs.
